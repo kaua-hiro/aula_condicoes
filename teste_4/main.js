@@ -21,7 +21,7 @@ Neste exemplo a resposta correta é PEGA LEAO.
 Teste seu programa para outras variações da entrada. */
 const elias = document.getElementById("isento");
 let resultado;
-/* let isento */
+
 let aposentado = true;
 let doencaGrave = true;
 let totalDeRendimentos = 2859970;
@@ -34,3 +34,18 @@ if (aposentado || doencaGrave) {
   resultado = "pega leao";
 }
 elias.innerHTML = resultado;
+
+/* 
+const elias = document.getElementById("isento");
+const chaveCorreta =
+  "fa31e5b6c227f47a30a3170d6fab3d9d40a32027338a04d22a115f7ea1c99ce2";
+
+const chaveDigitada =
+  "fa31e5b6c227f47a30a3170d6fab3d9d40a32027338a04d22a115f7ea1c99ce2fa31e5b6c227f47a30a3170d6fab3d9d40a32027338a04d22a115f7ea1c99ce2fa31e5b6c227f47a30a3170d6fab3d9d40a32027338a04d22a115f7ea1c99ce2";
+
+if (chaveCorreta === chaveDigitada) {
+  elias.innerHTML = "acesso Permitido";
+} else {
+  elias.innerHTML = "acesso negado";
+}
+ */
